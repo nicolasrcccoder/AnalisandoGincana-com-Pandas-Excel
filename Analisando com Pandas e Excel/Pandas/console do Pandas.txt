@@ -1,0 +1,105 @@
+---------------------------------------TABELA GERAL---------------------------------------
+        Time        Nome     Gênero  ...         Cidade Faturamento  Condição
+0       Azul     Nicolas  Masculino  ...   Porto Alegre        5000      RUIM
+1   Vermelho     Larissa   Feminino  ...   Porto Alegre        4000      RUIM
+2   Vermelho        Yuri  Masculino  ...   Porto Alegre        3500      RUIM
+3       Azul     Vicente  Masculino  ...        Niteroi       10000       BOM
+4   Vermelho  Alecsandro  Masculino  ...       Curitiba        1500      RUIM
+5       Azul     Manuela   Feminino  ...       Gravataí        2000      RUIM
+6       Azul   Cristiane   Feminino  ...      São Paulo       15000       BOM
+7       Azul       Maria   Feminino  ...         Osasco       12000       BOM
+8   Vermelho       Mario  Masculino  ...         Recife        9800       BOM
+9   Vermelho       Julio  Masculino  ...       Curitiba       20000       BOM
+10      Azul     Juliana   Feminino  ...  Florianópolis        7000      RUIM
+11  Vermelho     Ricardo  Masculino  ...  Florianópolis        8000       BOM
+12      Azul       Emily   Feminino  ...  Florianópolis       25000       BOM
+13  Vermelho        João  Masculino  ...         Cuiabá        3500      RUIM
+
+[14 rows x 7 columns]
+ (0 para encerrar)
+ -1 para Faturamento Geral
+ -2 para Média do Faturamento Geral
+ -3 para valor total de cada equipe
+ -4 valor médio de cada equipe
+ -5 para Faturamento Alunos
+ -6 para Aluno com o maior Faturamento
+ -7 para Aluno com o menor Faturamento
+ -8 para Faturamento Estados
+ -9 Estado para com maior Faturamento
+ -10 para Estado com menor Faturamento
+ -11 para Faturamento de cada Gênero
+ opção : 1
+------Faturamento Geral------
+Total Geral: R$ 126,300.00
+ opção : 2
+------Média do Faturamento Geral
+Total Geral: R$ 9,021.43
+ opção : 3
+------valor total de cada equipe------
+Time
+Azul        76000
+Vermelho    50300
+Name: Faturamento, dtype: int64
+ opção : 4
+------valor médio de cada equipe------
+Time
+Azul        10857.142857
+Vermelho     7185.714286
+Name: Faturamento, dtype: float64
+ opção : 5
+------Faturamento Alunos-----
+Nome
+Emily         25000
+Julio         20000
+Cristiane     15000
+Maria         12000
+Vicente       10000
+Mario          9800
+Ricardo        8000
+Juliana        7000
+Nicolas        5000
+Larissa        4000
+João           3500
+Yuri           3500
+Manuela        2000
+Alecsandro     1500
+Name: Faturamento, dtype: int64
+ opção : 6
+------Aluno com o maior Faturamento------
+Nome
+Emily    25000
+Name: Faturamento, dtype: int64
+ opção : 7
+------Aluno com menor Faturamento------
+Nome
+Alecsandro    1500
+Name: Faturamento, dtype: int64
+ opção : 8
+------Faturamento Estados------
+Estado
+Santa Catarina       40000
+São Paulo            27000
+Paraná               21500
+Rio Grande do Sul    14500
+Rio de Janeiro       10000
+Pernambuco            9800
+Goiás                 3500
+Name: Faturamento, dtype: int64
+ opção : 9
+------Estado com maior Faturamento------
+Estado
+Santa Catarina    40000
+Name: Faturamento, dtype: int64
+ opção : 10
+------Estado com menor Faturamento------
+Estado
+Goiás    3500
+Name: Faturamento, dtype: int64
+ opção : 11
+------Faturamento de cada Gênero------
+Gênero
+Feminino     65000
+Masculino    61300
+Name: Faturamento, dtype: int64
+ opção : 0
+Encerrando o programa...
